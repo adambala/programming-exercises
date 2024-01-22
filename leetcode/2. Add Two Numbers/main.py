@@ -11,7 +11,7 @@ class Solution:
         carry = 0
         while True:
             l3_pointer.val = l1.val + l2.val + carry
-            
+
             carry = 0
             if (l3_pointer.val >= 10):
                 carry = 1
@@ -27,8 +27,8 @@ class Solution:
                 l1, l2 = l1.next, blank_node
             else:
                 l1, l2 = l1.next, l2.next
-            
+
             l3_pointer.next = ListNode(val=carry)
             l3_pointer = l3_pointer.next
-            
+
         return l3
