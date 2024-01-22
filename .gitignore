@@ -1,1 +1,11 @@
+### OS ###
 .DS_Store
+
+### IDE ###
+.idea
+.vscode
+
+### Python ###
+# Byte-compiled
+__pycache__/
+*.py[cod]
